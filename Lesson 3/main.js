@@ -1,3 +1,9 @@
+// Câu 1
+const textElement = document.getElementById("text");
+textElement.style.color = "#777";
+textElement.style.fontSize = "2rem";
+textElement.innerHTML = "Tôi có thể làm <em> bất cứ điều gì </em> tôi muốn với JavaScript.";
+
 // Câu 2
 let listItems = document.querySelectorAll("#list1 li");
 for (let i = 0; i < listItems.length; i++) {
