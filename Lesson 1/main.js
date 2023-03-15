@@ -34,6 +34,8 @@ const translate = (country) => {
             break;
         case 'DE':
             text = 'Guten tag';
+        default:
+            text = 'Greetings from around the world'
     }
     return text;
 }
